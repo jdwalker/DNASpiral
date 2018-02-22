@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 15
-  productGUID: 7a95fbbc79f4cda43963858ac6105fd7
+  productGUID: 7b4311f0d64b38b4b9f72a1f927b6e85
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: DNA Spiral
+  productName: DNASpiral
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -536,14 +536,14 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: DNA Spiral
+  metroPackageName: DNASpiral
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: DNA Spiral
+  metroApplicationDescription: DNASpiral
   wsaImages: {}
   metroTileShortName: 
   metroCommandLineArgsFile: 
@@ -611,9 +611,9 @@ PlayerSettings:
   cloudServicesEnabled: {}
   facebookSdkVersion: 
   apiCompatibilityLevel: 2
-  cloudProjectId: 
-  projectName: 
-  organizationId: 
+  cloudProjectId: 0abf64f7-eeb4-470b-b887-37bbf14da345
+  projectName: DNASpiral
+  organizationId: james-walker-3700961
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
