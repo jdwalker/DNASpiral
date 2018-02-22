@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: fd7716cae9632cb4487f9158ffb2ed2c
+guid: 21ca150eeed77fb4f8970c200ac23e41
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
@@ -129,12 +129,10 @@ ModelImporter:
     100246: Mesh60
     100248: Mesh61
     100250: Mesh62
-    100252: Mesh63
-    100254: Mesh7
-    100256: Mesh8
-    100258: Mesh9
-    100260: Stacy1
-    100262: //RootNode
+    100252: Mesh7
+    100254: Mesh8
+    100256: Mesh9
+    100258: //RootNode
     400000: Component1
     400002: Component_1_1
     400004: Component_2_1
@@ -261,21 +259,13 @@ ModelImporter:
     400246: Mesh60
     400248: Mesh61
     400250: Mesh62
-    400252: Mesh63
-    400254: Mesh7
-    400256: Mesh8
-    400258: Mesh9
-    400260: Stacy1
-    400262: //RootNode
-    2100000: Stacy_Skin
-    2100002: Stacy_Shirt
-    2100004: Stacy_Shoe
-    2100006: Stacy_Shoe_Laces_Sole
-    2100008: Stacy_Hair
-    2100010: Stacy_Pants
-    2100012: Translucent_Glass_Blue
-    2100014: FrontColor
-    2100016: Stone_Vein_Gray
+    400252: Mesh7
+    400254: Mesh8
+    400256: Mesh9
+    400258: //RootNode
+    2100000: Translucent_Glass_Blue
+    2100002: FrontColor
+    2100004: Stone_Vein_Gray
     2300000: Mesh1
     2300002: Mesh10
     2300004: Mesh11
@@ -335,10 +325,9 @@ ModelImporter:
     2300112: Mesh60
     2300114: Mesh61
     2300116: Mesh62
-    2300118: Mesh63
-    2300120: Mesh7
-    2300122: Mesh8
-    2300124: Mesh9
+    2300118: Mesh7
+    2300120: Mesh8
+    2300122: Mesh9
     3300000: Mesh1
     3300002: Mesh10
     3300004: Mesh11
@@ -398,10 +387,9 @@ ModelImporter:
     3300112: Mesh60
     3300114: Mesh61
     3300116: Mesh62
-    3300118: Mesh63
-    3300120: Mesh7
-    3300122: Mesh8
-    3300124: Mesh9
+    3300118: Mesh7
+    3300120: Mesh8
+    3300122: Mesh9
     4300000: Mesh1
     4300002: Mesh2
     4300004: Mesh3
@@ -464,7 +452,6 @@ ModelImporter:
     4300118: Mesh60
     4300120: Mesh61
     4300122: Mesh62
-    4300124: Mesh63
   externalObjects: {}
   materials:
     importMaterials: 1
