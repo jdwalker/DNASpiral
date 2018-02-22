@@ -1,12 +1,12 @@
 fileFormatVersion: 2
-guid: e63cdcb880efa01409821e3956648d32
+guid: da0f9bbe82070324cb4f51e370da4aa8
 SketchUpImporter:
   generateBackFace: 0
   mergeCoplanarFaces: 0
   selectedNodes: 
   assetHash:
     serializedVersion: 2
-    Hash: 07dd8a3fe674a9194dfba56cd8ad4b71
+    Hash: 2c4d96737a3625a0a354f9ba3ae9ef5a
   longitude: 0
   latitude: 0
   northCorrection: 0
@@ -67,7 +67,7 @@ SketchUpImporter:
     optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
-    preserveHierarchy: 1
+    preserveHierarchy: 0
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
