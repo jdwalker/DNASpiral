@@ -1,0 +1,14 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 24.02.2018 23:14:50
+
+newmtl Translucent_Glass_Blue
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.3922 0.5843 0.9294
+	Ks 0.3300 0.3300 0.3300
+	Ke 0.0000 0.0000 0.0000
