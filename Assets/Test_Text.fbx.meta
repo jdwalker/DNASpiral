@@ -1,6 +1,11 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 323b3f840e546274398a9006fd79896e
 timeCreated: 1519553097
+=======
+guid: 1d5b6f83c09f96648979178131c10f39
+timeCreated: 1519552311
+>>>>>>> 2058316e90a33ca28364d418c99d8b060498a869
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
@@ -12,7 +17,16 @@ ModelImporter:
     3300000: //RootNode
     4300000: typeMesh1
     9500000: //RootNode
+<<<<<<< HEAD
   externalObjects: {}
+=======
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: typeBlinn
+    second: {fileID: 2100000, guid: f5d80214186b5404eae53e832bf3a05c, type: 2}
+>>>>>>> 2058316e90a33ca28364d418c99d8b060498a869
   materials:
     importMaterials: 1
     materialName: 0
