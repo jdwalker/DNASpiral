@@ -1281,6 +1281,10 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 4f9368c606e62fa4cbd8085009ce4abd, type: 3}
+      propertyPath: m_Name
+      value: first anim DNA
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4f9368c606e62fa4cbd8085009ce4abd, type: 3}
   m_IsPrefabParent: 0
@@ -1499,7 +1503,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400128, guid: eded5d84a9f6056438544f92cefc000f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.01
+      value: 1.016
       objectReference: {fileID: 0}
     - target: {fileID: 400128, guid: eded5d84a9f6056438544f92cefc000f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4622,7 +4626,7 @@ Prefab:
     - target: {fileID: 224000012623161658, guid: d46cf6b1ad9d84a48ae7548a2a6b41b3,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: 943
+      value: 958
       objectReference: {fileID: 0}
     - target: {fileID: 224000012623161658, guid: d46cf6b1ad9d84a48ae7548a2a6b41b3,
         type: 2}
@@ -4981,8 +4985,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1728667703}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.67, y: 0.89, z: -3.34}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0.33399993, y: 0.3169999, z: -0.26000002}
+  m_LocalScale: {x: 1.6379786, y: 1.6379791, z: 1.6379791}
   m_Children:
   - {fileID: 928306992}
   - {fileID: 2119627663}
@@ -5134,8 +5138,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1880790130}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.214, y: 0.73, z: -3.59}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0.33399993, y: 0.3169999, z: -0.26000002}
+  m_LocalScale: {x: 1.6379786, y: 1.6379791, z: 1.6379791}
   m_Children:
   - {fileID: 1107519341}
   - {fileID: 1545150381}
@@ -5193,8 +5197,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   borderThickness: 0.15
   wireframeHeight: 2
-  drawWireframeWhenSelectedOnly: 0
-  drawInGame: 0
+  drawWireframeWhenSelectedOnly: 1
+  drawInGame: 1
   size: 0
   color: {r: 0, g: 1, b: 1, a: 1}
   vertices:
