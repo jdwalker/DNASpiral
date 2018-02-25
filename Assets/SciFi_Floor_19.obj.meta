@@ -43,11 +43,41 @@ ModelImporter:
     4300006: SciFi_Floor_19_4
     4300008: SciFi_Floor_19_5
     4300010: SciFi_Floor_19_6
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: scifi_panels_metal
+    second: {fileID: 2100000, guid: 05cc39d86787c714ca6e1f90cce5187d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: scifi_panels_metal1
+    second: {fileID: 2100000, guid: bfd25d4a1eb4b394aa67df0e20775752, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: scifi_panels_metal2
+    second: {fileID: 2100000, guid: 89ed106d38bcd1e46b30538fd808c1f8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: scifi_panels_metal3
+    second: {fileID: 2100000, guid: 6ccc57fa544881a44bcbb6e45f4c9272, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: scifi_panels_metal4
+    second: {fileID: 2100000, guid: dfbd7d4f6a2910d40966b7ebe91bda8b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: scifi_panels_paint
+    second: {fileID: 2100000, guid: 831cb4057c9645c478ce89bce5e864b0, type: 2}
   materials:
     importMaterials: 1
     materialName: 1
-    materialSearch: 1
+    materialSearch: 2
     materialLocation: 0
   animations:
     legacyGenerateAnimations: 4

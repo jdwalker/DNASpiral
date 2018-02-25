@@ -1,51 +1,23 @@
 fileFormatVersion: 2
-guid: 9c0c1a09918a7054d920cb281536f82d
-timeCreated: 1519557101
+guid: 2a6248382f0679146bd6349ae5410236
+timeCreated: 1519563742
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
-    100002: SciFi_Floor_22_1
-    100004: SciFi_Floor_22_2
-    100006: SciFi_Floor_22_3
     400000: //RootNode
-    400002: SciFi_Floor_22_1
-    400004: SciFi_Floor_22_2
-    400006: SciFi_Floor_22_3
-    2100000: scifi_panels_paint
-    2100002: scifi_panels_metal2
-    2100004: scifi_panels_metal
-    2300000: SciFi_Floor_22_1
-    2300002: SciFi_Floor_22_2
-    2300004: SciFi_Floor_22_3
-    3300000: SciFi_Floor_22_1
-    3300002: SciFi_Floor_22_2
-    3300004: SciFi_Floor_22_3
-    4300000: SciFi_Floor_22_1
-    4300002: SciFi_Floor_22_2
-    4300004: SciFi_Floor_22_3
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: scifi_panels_metal
-    second: {fileID: 2100000, guid: 05cc39d86787c714ca6e1f90cce5187d, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: scifi_panels_metal2
-    second: {fileID: 2100000, guid: 89ed106d38bcd1e46b30538fd808c1f8, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: scifi_panels_paint
-    second: {fileID: 2100000, guid: 831cb4057c9645c478ce89bce5e864b0, type: 2}
+    2100000: typeBlinn
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: typeMesh1
+    9500000: //RootNode
+  externalObjects: {}
   materials:
     importMaterials: 1
-    materialName: 1
-    materialSearch: 2
-    materialLocation: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -114,7 +86,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
+  animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
