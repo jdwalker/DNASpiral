@@ -480,7 +480,6 @@ GameObject:
   m_Component:
   - component: {fileID: 92441831}
   - component: {fileID: 92441830}
-  - component: {fileID: 92441832}
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -537,33 +536,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!114 &92441832
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 92441829}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 98395bfdb2142ee4f8cb146f81a87fb2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  victoryEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 2038860685}
-        m_MethodName: SetTrigger
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Victory
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!1 &119393491 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100218, guid: 21ca150eeed77fb4f8970c200ac23e41, type: 3}
@@ -1309,10 +1281,6 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 4f9368c606e62fa4cbd8085009ce4abd, type: 3}
-      propertyPath: m_Name
-      value: first anim DNA
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4f9368c606e62fa4cbd8085009ce4abd, type: 3}
   m_IsPrefabParent: 0
@@ -1531,7 +1499,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400128, guid: eded5d84a9f6056438544f92cefc000f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.016
+      value: 1.01
       objectReference: {fileID: 0}
     - target: {fileID: 400128, guid: eded5d84a9f6056438544f92cefc000f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2298,7 +2266,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ed2aa1a29b92ca4f84a26a5f6e9218b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  operation: 1
+  operation: 0
   checkType: 3
   identifiers:
   - ExcludeTeleport
@@ -2335,7 +2303,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 174429e04b0388249a137b2dc0050b66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enableTeleport: 0
+  enableTeleport: 1
   targetListPolicy: {fileID: 0}
   enableBodyCollisions: 1
   ignoreGrabbedCollisions: 1
@@ -4713,7 +4681,7 @@ Prefab:
     - target: {fileID: 224000012623161658, guid: d46cf6b1ad9d84a48ae7548a2a6b41b3,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: 907
+      value: 943
       objectReference: {fileID: 0}
     - target: {fileID: 224000012623161658, guid: d46cf6b1ad9d84a48ae7548a2a6b41b3,
         type: 2}
@@ -5072,8 +5040,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1728667703}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.33399993, y: 0.3169999, z: -0.26000002}
-  m_LocalScale: {x: 1.6379786, y: 1.6379791, z: 1.6379791}
+  m_LocalPosition: {x: 1.67, y: 0.89, z: -3.34}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 928306992}
   - {fileID: 2119627663}
@@ -5225,8 +5193,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1880790130}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.33399993, y: 0.3169999, z: -0.26000002}
-  m_LocalScale: {x: 1.6379786, y: 1.6379791, z: 1.6379791}
+  m_LocalPosition: {x: 2.214, y: 0.73, z: -3.59}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1107519341}
   - {fileID: 1545150381}
@@ -5284,8 +5252,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   borderThickness: 0.15
   wireframeHeight: 2
-  drawWireframeWhenSelectedOnly: 1
-  drawInGame: 1
+  drawWireframeWhenSelectedOnly: 0
+  drawInGame: 0
   size: 0
   color: {r: 0, g: 1, b: 1, a: 1}
   vertices:
@@ -5480,11 +5448,6 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300076, guid: 21ca150eeed77fb4f8970c200ac23e41, type: 3}
---- !u!95 &2038860685 stripped
-Animator:
-  m_PrefabParentObject: {fileID: 9500000, guid: eded5d84a9f6056438544f92cefc000f,
-    type: 3}
-  m_PrefabInternal: {fileID: 571614821}
 --- !u!1 &2044728047 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100164, guid: 21ca150eeed77fb4f8970c200ac23e41, type: 3}
