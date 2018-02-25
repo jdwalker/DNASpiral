@@ -23,6 +23,7 @@ public class Walking : StateMachineBehaviour {
 	// OnStateMove is called right after Animator.OnAnimatorMove(). Code that processes and affects root motion should be implemented here
 	override public void OnStateMove(Animator animator, AnimatorStateInfo stateInfo, int layerIndex) {
 		animator.transform.Translate(new Vector3 { z = 0.01f }, Space.World);
+		
 	}
 
 	// OnStateIK is called right after Animator.OnAnimatorIK(). Code that sets up animation IK (inverse kinematics) should be implemented here.
